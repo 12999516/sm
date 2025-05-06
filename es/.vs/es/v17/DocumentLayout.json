@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\fcerca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|solutionrelative:es\\fcerca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\csim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|solutionrelative:es\\csim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|c:\\users\\sebas\\desktop\\scuola\\info\\sim\\sm\\es\\es\\fadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|solutionrelative:es\\fadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A52EF-F321-4318-BCFE-C37DF764D1D9}|es\\es.csproj|solutionrelative:es\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fcerca.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Fcerca.cs",
+              "RelativeDocumentMoniker": "es\\Fcerca.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Fcerca.cs",
+              "RelativeToolTip": "es\\Fcerca.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAjwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:05:38.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Csim.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Csim.cs",
+              "RelativeDocumentMoniker": "es\\Csim.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Csim.cs",
+              "RelativeToolTip": "es\\Csim.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T10:10:39.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Form1.cs",
+              "RelativeDocumentMoniker": "es\\Form1.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Form1.cs",
+              "RelativeToolTip": "es\\Form1.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAUwHwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T12:15:47.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fadd.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Fadd.cs",
+              "RelativeDocumentMoniker": "es\\Fadd.cs",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\scuola\\info\\sim\\sm\\es\\es\\Fadd.cs",
+              "RelativeToolTip": "es\\Fadd.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvycAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T17:49:40.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

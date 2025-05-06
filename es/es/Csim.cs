@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace es
 {
-    internal class Csim
+    public class Csim
     {
         private string num;
-        private int saldo;
+        public int saldo { get; set; }
         public List<Ctel> telefonate;
 
-        /*public Csim
-            {
-                this.num = "0000000000";
-                saldo = 0;
-                telefonate = new List<Ctel>();
-            }*/
+        public Csim()
+        {
+            num = "000000";
+            saldo = 0;
+            telefonate = new List<Ctel>();
+        }
 
         public Csim(string num, int saldo)
         {
@@ -31,18 +31,17 @@ namespace es
             telefonate.Add(ct);
         }
 
-        public string cerca(string num)
+        public List<Ctel> cerca(string num)
         {
-            string telefo = "";
-
-            for(int i = 0; i < telefonate.Count; i++)
+            List<Ctel> tel_con_num = new List<Ctel>();
+                for (int i = 0; i < telefonate.Count; i++)
             {
                 if (telefonate[i].num == num)
                 {
-                    telefo += telefonate[i].informazioni() + "\n\r";
+                    tel_con_num.Add(telefonate[i]);
                 }
             }
-            return telefo;
+            return tel_con_num;
         }
 
         public string totale_minuti()
@@ -52,13 +51,14 @@ namespace es
             {
                 totale += telefonate[i].durata;
             }
-            return $"il totale trascorso in delle chiamate è di {totale} minuti";
+            totale = totale / 60;
+            return $"il totale trascorso in delle chiamate è di {totale} minuti/o";
         }
 
         public string info()
         {
             string tele = $"il numero {num} ha un saldo di {saldo} euro\n\r";
-            for(int i = 0; i < telefonate.Count; i++)
+            for (int i = 0; i < telefonate.Count; i++)
             {
                 tele += telefonate[i].informazioni() + "\n\r";
             }

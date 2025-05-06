@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace es
 {
-    internal class Ctel
+    public class Ctel
     {
         public string num { get; set; }
         public int durata { get; set; }

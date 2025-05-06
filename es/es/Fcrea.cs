@@ -23,23 +23,23 @@ namespace es
 
         private void btn_aggiungi_Click(object sender, EventArgs e)
         {
-            numero = txt_numero.Text;
-            credito = Int32.Parse(txt_credito.Text);
-            dr = DialogResult.OK;
-            Close();
-        }
-
-        /*private void btn_aggiungi_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if(!(char.IsDigit(e.KeyChar)) || !(char.IsControl(e.KeyChar)))
+            try
             {
-                e.Handled = true;
+                
+                numero = txt_numero.Text;
+                credito = int.Parse(txt_credito.Text);
+                DialogResult = DialogResult.OK;
+                Close();
             }
-        }*/
+            catch (Exception)
+            {
+                MessageBox.Show("Inserire un valore numerico valido per il credito.");
+            }
+        }
 
         private void txt_credito_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if((e.KeyChar == ',' && ((TextBox)sender).Text.Contains(",")) &&!(char.IsDigit(e.KeyChar)) && !(char.IsControl(e.KeyChar)))
+            if(((e.KeyChar == ',' && ((TextBox)sender).Text.Contains(","))) &&(!(char.IsDigit(e.KeyChar)) && !(char.IsControl(e.KeyChar))))
             {
                 e.Handled = true;
             }
@@ -51,6 +51,31 @@ namespace es
             {
                 e.Handled = true;
             }
+        }
+
+        private void Fcrea_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_numero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_credito_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_credito_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_numero_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

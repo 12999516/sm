@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Csim.cs" />
     <Compile Include="Ctel.cs" />
+    <Compile Include="Fadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fadd.Designer.cs">
+      <DependentUpon>Fadd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fcerca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,12 +66,6 @@
     <Compile Include="Fcrea.Designer.cs">
       <DependentUpon>Fcrea.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fcronologia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Fcronologia.Designer.cs">
-      <DependentUpon>Fcronologia.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Fadd.resx">
+      <DependentUpon>Fadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fcerca.resx">
+      <DependentUpon>Fcerca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fcrea.resx">
       <DependentUpon>Fcrea.cs</DependentUpon>
     </EmbeddedResource>
